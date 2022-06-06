@@ -16,7 +16,7 @@ function KeyFunction(props) {
 
     return (
         <div 
-            class="key"
+            className="key"
             id={props.bigSize ? "big" : props.disabled && "disabled"}
             onClick={selectLetter}
         >

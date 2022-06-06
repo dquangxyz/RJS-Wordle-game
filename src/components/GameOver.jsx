@@ -4,7 +4,7 @@ import { AppContext } from '../App'
 function GameOver() {
     const {gameOver, setGameOver, correctWord, currentAttempt} =useContext(AppContext)
   return (
-    <div classname="gameOver">
+    <div className="gameOver">
         <h3>{gameOver.guessedWord ? "Successful" : "Failed"}</h3>
         <h1>Correct word: {correctWord.toUpperCase()}</h1>
         {gameOver.guessedWord && (

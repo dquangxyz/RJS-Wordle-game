@@ -21,7 +21,6 @@ function Letter({letterPosition, attempValue}) {
     if (letter !== ""){
       setDisabledLetter((prev) => [...prev, letter])
     }
-    console.log(disabledLetter)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   },[currentAttempt.attempt])  
 
